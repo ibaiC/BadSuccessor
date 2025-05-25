@@ -1,0 +1,7 @@
+C:\Users\IEUser\Desktop\Research\BadSuccessor\BadSuccessor\BadSuccessor\bin\Debug\BadSuccessor.exe.config
+C:\Users\IEUser\Desktop\Research\BadSuccessor\BadSuccessor\BadSuccessor\bin\Debug\BadSuccessor.exe
+C:\Users\IEUser\Desktop\Research\BadSuccessor\BadSuccessor\BadSuccessor\bin\Debug\BadSuccessor.pdb
+C:\Users\IEUser\Desktop\Research\BadSuccessor\BadSuccessor\BadSuccessor\obj\Debug\BadSuccessor.csproj.AssemblyReference.cache
+C:\Users\IEUser\Desktop\Research\BadSuccessor\BadSuccessor\BadSuccessor\obj\Debug\BadSuccessor.csproj.CoreCompileInputs.cache
+C:\Users\IEUser\Desktop\Research\BadSuccessor\BadSuccessor\BadSuccessor\obj\Debug\BadSuccessor.exe
+C:\Users\IEUser\Desktop\Research\BadSuccessor\BadSuccessor\BadSuccessor\obj\Debug\BadSuccessor.pdb

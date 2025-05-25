@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35229.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadSuccessor", "BadSuccessor\BadSuccessor.csproj", "{36AF20DD-91CF-45AD-9AA3-E78D4722450F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36AF20DD-91CF-45AD-9AA3-E78D4722450F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36AF20DD-91CF-45AD-9AA3-E78D4722450F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36AF20DD-91CF-45AD-9AA3-E78D4722450F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36AF20DD-91CF-45AD-9AA3-E78D4722450F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {304C91D6-CBDA-41BB-B52E-D3596FF1A095}
+	EndGlobalSection
+EndGlobal
