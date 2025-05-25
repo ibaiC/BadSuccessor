@@ -16,7 +16,7 @@ namespace BadSuccessor
             Console.WriteLine(" ______           __ _______                                               ");
             Console.WriteLine("|   __ \\ .---.-.--|  |     __|.--.--.----.----.-----.-----.-----.-----.----.");
             Console.WriteLine("|   __ < |  _  |  _  |__     ||  |  |  __|  __|  -__|__ --|__ --|  _  |   _|");
-            Console.WriteLine("|______/ |___._|_____|_______||_____|____|_____|_____|_____|_____|_____|__|  ");
+            Console.WriteLine("|______/ |___._|_____|_______||_____|____|____|_____|_____|_____|_____|__|  ");
             Console.WriteLine();
             Console.WriteLine("Researcher: @YuG0rd");
             Console.WriteLine("Author: @kreepsec");
