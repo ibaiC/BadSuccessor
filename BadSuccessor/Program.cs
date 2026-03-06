@@ -279,15 +279,17 @@ namespace BadSuccessor
                     if (!sids.Contains((SecurityIdentifier)rule.IdentityReference)) continue;
 
                     var rights = rule.ActiveDirectoryRights;
-
-                    if ((rights & ActiveDirectoryRights.WriteProperty) != 0)
+                    var objType = rule.ObjectType;
+                    bool unscoped = (objType == Guid.Empty);
+                    
+                    if ((rights & ActiveDirectoryRights.WriteProperty) != 0 && unscoped)
                         privilegeSet.Add("WriteProperty");
+                    if ((rights & ActiveDirectoryRights.CreateChild) != 0 && unscoped)
+                        privilegeSet.Add("CreateChild");
                     if ((rights & ActiveDirectoryRights.WriteDacl) != 0)
                         privilegeSet.Add("WriteDacl");
                     if ((rights & ActiveDirectoryRights.WriteOwner) != 0)
                         privilegeSet.Add("WriteOwner");
-                    if ((rights & ActiveDirectoryRights.CreateChild) != 0)
-                        privilegeSet.Add("CreateChild");
                     if ((rights & ActiveDirectoryRights.GenericWrite) != 0)
                         privilegeSet.Add("GenericWrite");
                     if ((rights & ActiveDirectoryRights.GenericAll) != 0)
@@ -443,3 +445,4 @@ namespace BadSuccessor
         }
     }
 }
+
